@@ -1,0 +1,5 @@
+mamba env create -f environment.yml
+mamba activate pytorch_env
+#### Updating
+mamba env update --file environment.yml --prune
+tensorboard --logdir=tb_logs/Seq2SeqGRU
